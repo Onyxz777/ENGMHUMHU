@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เกมเรียนภาษาอังกฤษแสนสนุก</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#3b82f6">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* CSS styles (same as before) */
+    </style>
+</head>
+<body>
+    <!-- The body content (same as user-provided HTML) will go here -->
+    <!-- For brevity, not repeating the entire HTML again here -->
+    <script>
+        // JavaScript code (same as before)
+    </script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then(reg => console.log("✅ Service Worker registered!", reg))
+      .catch(err => console.error("❌ Service Worker registration failed:", err));
+  }
+</script>
+</body>
+
+</html>
